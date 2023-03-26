@@ -1,0 +1,90 @@
+/* Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --main-text-color: #212121;
+    --minor-text-color: #757575;
+    --blue-accent: #2196F3;
+    --white: #FFF;
+    --main-background: #E5E5E5;
+    --minor-background: #F5F4FA;
+    --hero-background: #2F303A;
+    --logo: #000;
+}
+
+/* color of main text #212121 */
+
+/* color of minor text #757575 */
+
+/* white #FFFFFF */
+/* blue accent #2196F3 */
+/* minor background # F5F5F5 */
+/* main background #E5E5E5 */
+/* minor background #F5F4FA */
+/* hero background #2F303A */
+
+/* main */
+.page {
+    background-color: var(--main-background);
+    color: var(--main-text-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* logo */
+.logo {
+   color: var(--logo);  
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   line-height: 1.17;
+   font-weight: 700;
+}
+.logo-accent {
+    color: var(--blue-accent);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;   
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+/* navigation */
+.site-nav {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--main-text-color);
+}
+    .site-nav:hover {color: var(--blue-accent);}
+    .site-nav:focus {color: var(--blue-accent);}
+
+.site-nav .current {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--blue-accent);
+}
+.site-nav-address {
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--minor-text-color);
+}
+.site-nav-address:hover {color: var(--blue-accent);}
+.site-nav-address:focus {color: var(--blue-accent);}
+ /* hero */
+.hero 
+{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+text-align: center;
+text-transform: uppercase;
+}
